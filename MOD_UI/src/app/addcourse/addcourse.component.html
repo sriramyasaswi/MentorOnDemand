@@ -1,0 +1,67 @@
+<div style="padding: 20px"></div>
+
+
+<div class="container" style="background-color: white;">
+    <div class="row">
+        <div class="col-sm-8 col-lg-8">
+            <h1 class="h1">
+                Add a Course <small>New Things coming up! :)</small></h1>
+        </div>
+    </div>
+</div>
+
+<div class="container" style="background-color: white;">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="well well-sm">
+                <form #courseForm="ngForm">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="name">
+                                    Course Name</label>
+                                <input type="text" class="form-control" [(ngModel)]="courseData.CourseName" name="CourseName"
+                                    #CourseName="ngModel" id="name" placeholder="Enter name" required="required" />
+                            </div>
+                            <div class="form-group">
+                                <label for="name">
+                                    Fee</label>
+                                <input type="number" class="form-control" [(ngModel)]="courseData.Fee" name="Fee"
+                                    #Fee="ngModel" id="name" placeholder="fee" required="required" />
+                            </div>
+
+
+
+                            
+                            
+                            <div class="form-group">
+                                <label for="subject">
+                                    Time Slot</label>
+                                <input type="number" class="form-control" [(ngModel)]="courseData.CTimings"
+                                    name="duration" #CTimings="ngModel" id="email" placeholder="Time Slot"
+                                    required="required" />
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="name">
+                                    Description</label>
+                                <textarea name="text" [(ngModel)]="courseData.CourseDesc" name="CourseDesc" #CourseDesc="ngModel"
+                                    id="message" class="form-control" rows="9" cols="25" required="required"
+                                    placeholder="write the description about the course"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <button type="submit" (click)="addCourse()" class="btn btn-primary pull-right"
+                                id="btnContactUs">
+                                Add Course</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</div>

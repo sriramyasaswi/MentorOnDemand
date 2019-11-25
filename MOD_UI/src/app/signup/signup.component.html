@@ -1,0 +1,56 @@
+
+
+<div class="container">
+    <div class="card card-container">
+            <h2 style="text-align: center">User Signup</h2>
+        <!-- <img class="profile-img-card" src="//lh3.googleusercontent.com/-6V8xOA6M7BA/AAAAAAAAAAI/AAAAAAAAAAA/rzlHcD0KYwo/photo.jpg?sz=120" alt="" /> -->
+        <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" />
+        <p id="profile-name" class="profile-name-card"></p>
+        <form class="form-signin"  #form1="ngForm">
+                <input type="text"  [(ngModel)]="registerUserData.FirstName" name="FirstName"  id="inputPassword1" class="form-control"  #FirstName="ngModel" placeholder="First Name" required>
+                <span *ngIf="FirstName.invalid && (FirstName.dirty || FirstName.touched)" class="red-text">
+                    <span *ngIf="FirstName.errors.required"> First Name should not be empty.</span>
+                  </span>
+    
+                  <input type="Text"  [(ngModel)]="registerUserData.LastName" name="Lastname"  id="inputPassword1" class="form-control"  #LastName="ngModel" placeholder="Last Name" required>
+                  <span *ngIf="LastName.invalid && (LastName.dirty || LastName.touched)" class="red-text">
+                      <span *ngIf="LastName.errors.required"> Last Name should not be empty.</span>
+                    </span>
+                    
+            <span id="reauth-email" class="reauth-email"></span>
+            <input type="email" [(ngModel)]="registerUserData.email"  name="email"  id="inputEmail" class="form-control" placeholder="Email address" #email_id2="ngModel" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$" required autofocus>
+            <span *ngIf="email_id2.invalid && (email_id2.dirty || email_id2.touched)" class="red-text">
+                <span *ngIf="email_id2.errors.required"> Email Id should not be empty.</span>
+                <span *ngIf="email_id2.errors.pattern"> This is not a valid Email Id!</span>
+              </span>
+            <input type="password"  [(ngModel)]="registerUserData.password" name="password"  id="inputPassword1" class="form-control"  #pass_word2="ngModel" placeholder="Password" required>
+            <span *ngIf="pass_word2.invalid && (pass_word2.dirty || pass_word2.touched)" class="red-text">
+                <span *ngIf="pass_word2.errors.required"> Password should not be empty.</span>
+              </span>
+           
+              
+            <!-- <div class="form-check">
+                <input type="radio" [(ngModel)]='registerUserData.student' class="form-check-input" required checked value="student" name="stuormen">
+                <label class="form-check-label" for="materialGroupExample1">Student</label>
+            </div> -->
+
+             <!-- <input type="radio" name="stuormen"  [(ngModel)]='registerUserData.student' value="student">student 
+                <input type="radio" name="stuormen"   [(ngModel)]='registerUserData.student' value="mentor">mentor   -->
+              <!-- Group of material radios - option 2 -->
+            <!-- <div class="form-check">
+                <input type="radio"[(ngModel)]='registerUserData.student' class="form-check-input"  value="mentor" name="stuormen">
+                <label class="form-check-label" for="materialGroupExample2">Mentor</label>
+            </div> -->
+            <!-- <div id="remember" class="checkbox">
+                <label>
+                    <input type="checkbox" value="remember-me"> Remember me
+                </label>
+            </div> -->
+            <br>
+            <button [disabled]="form1.form.invalid"(click)="registerUser()" class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Sign up</button>
+        </form><!-- /form -->
+        <!-- <a routerLink="/login" class="forgot-password">
+            Already have an account? login here
+        </a> -->
+    </div><!-- /card-container -->
+</div><!-- /container -->
