@@ -113,10 +113,7 @@ ua in context.MODUsers on a.mentorId equals ua.Id
             {
                 var progressbyId = context.Trainings.Find(id);
                 progressbyId.Progress = progressValue;
-                if (progressValue == 100)
-                {
-                    progressbyId.Status = 2;
-                }
+              
                 context.Trainings.Update(progressbyId);
                 int result = context.SaveChanges();
                 if (result > 0)

@@ -28,6 +28,8 @@ import { ApplytrainingComponent } from './applytraining/applytraining.component'
 import { OngoingtrainingsComponent } from './ongoingtrainings/ongoingtrainings.component';
 import { CompletedtrainingsComponent } from './completedtrainings/completedtrainings.component';
 
+import { PaymentsComponent } from './payments/payments.component';
+
 const routes: Routes = [
   {
     path:"",redirectTo:'/home',pathMatch:'full'
@@ -78,7 +80,8 @@ const routes: Routes = [
   children: [
     { path: 'applytraining', component: ApplytrainingComponent },
     { path: 'ongoingtrainings', component: OngoingtrainingsComponent },
-    { path: 'completedtraining', component: CompletedtrainingsComponent }
+    { path: 'completedtraining', component: CompletedtrainingsComponent },
+    { path : 'payments', component : PaymentsComponent}
     
    
   ]

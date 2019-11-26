@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
@@ -31,7 +31,7 @@ import { CompletedtrainingsComponent } from './completedtrainings/completedtrain
 import { CoursesComponent } from './courses/courses.component';
 import { MentorongoingtrainingsComponent } from './mentorongoingtrainings/mentorongoingtrainings.component';
 import { MentorcompletedtrainingsComponent } from './mentorcompletedtrainings/mentorcompletedtrainings.component';
-import { PaymentComponent } from './payment/payment.component';
+
 import { PaymentlistComponent } from './paymentlist/paymentlist.component';
 import { TrainingsComponent } from './trainings/trainings.component';
 import { TrainingslistComponent } from './trainingslist/trainingslist.component';
@@ -65,7 +65,6 @@ import { OngoingtrainingsComponent } from './ongoingtrainings/ongoingtrainings.c
     CoursesComponent,
     MentorongoingtrainingsComponent,
     MentorcompletedtrainingsComponent,
-    PaymentComponent,
     PaymentlistComponent,
     TrainingsComponent,
     TrainingslistComponent,
@@ -75,7 +74,8 @@ import { OngoingtrainingsComponent } from './ongoingtrainings/ongoingtrainings.c
     BrowserModule,
     FormsModule,
     HttpClientModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [AuthService,AuthGuard,{
     provide :HTTP_INTERCEPTORS,

@@ -33,6 +33,6 @@ export class ApplytrainingComponent implements OnInit {
   applyTraining(id)
   {
     localStorage.setItem('trainingid',id) 
-    this._route.navigate(['/userdb/payments'])
+    this._route.navigate(['/studentdboard/payments'])
   }
 }

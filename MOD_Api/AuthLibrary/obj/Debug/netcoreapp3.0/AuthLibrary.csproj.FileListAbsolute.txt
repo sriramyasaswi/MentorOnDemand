@@ -13,7 +13,6 @@ C:\Users\HP\Desktop\MOD\AuthLibrary\bin\Debug\netcoreapp3.0\AuthLibrary.runtimec
 C:\Users\HP\Desktop\MOD\AuthLibrary\bin\Debug\netcoreapp3.0\AuthLibrary.runtimeconfig.dev.json
 C:\Users\HP\Desktop\MOD\AuthLibrary\bin\Debug\netcoreapp3.0\AuthLibrary.dll
 C:\Users\HP\Desktop\MOD\AuthLibrary\bin\Debug\netcoreapp3.0\AuthLibrary.pdb
-C:\Users\HP\Desktop\MOD\AuthLibrary\obj\Debug\netcoreapp3.0\AuthLibrary.csprojAssemblyReference.cache
 C:\Users\HP\Desktop\MOD\AuthLibrary\obj\Debug\netcoreapp3.0\AuthLibrary.AssemblyInfoInputs.cache
 C:\Users\HP\Desktop\MOD\AuthLibrary\obj\Debug\netcoreapp3.0\AuthLibrary.AssemblyInfo.cs
 C:\Users\HP\Desktop\MOD\AuthLibrary\obj\Debug\netcoreapp3.0\AuthLibrary.dll

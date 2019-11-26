@@ -9,10 +9,10 @@ namespace StudentLibrary.Models
     {
         [Key]
         public int Id { get; set; }
-        public int Status { get; set; }
+     
         public int Progress { get; set; }
         public double commissionAmount { get; set; }
-        public int Rating { get; set; }
+     
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
         public Timings Timings { get; set; }
@@ -27,8 +27,7 @@ namespace StudentLibrary.Models
 
         public int courseId { get; set; }
         public string CourseName { get; set; }
-        public bool Accept { get; set; }
-        public bool rejection { get; set; }
+  
         public bool PaymentStatus { get; set; }
 
     }

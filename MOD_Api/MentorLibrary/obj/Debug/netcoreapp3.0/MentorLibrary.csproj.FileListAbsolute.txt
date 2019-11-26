@@ -8,13 +8,12 @@ C:\Users\srira\source\repos\MOD\MentorLibrary\obj\Debug\netcoreapp3.0\MentorLibr
 C:\Users\srira\source\repos\MOD\MentorLibrary\obj\Debug\netcoreapp3.0\MentorLibrary.AssemblyInfo.cs
 C:\Users\srira\source\repos\MOD\MentorLibrary\obj\Debug\netcoreapp3.0\MentorLibrary.dll
 C:\Users\srira\source\repos\MOD\MentorLibrary\obj\Debug\netcoreapp3.0\MentorLibrary.pdb
+C:\Users\HP\Desktop\MOD\MentorLibrary\obj\Debug\netcoreapp3.0\MentorLibrary.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\MOD\MentorLibrary\obj\Debug\netcoreapp3.0\MentorLibrary.AssemblyInfo.cs
 C:\Users\HP\Desktop\MOD\MentorLibrary\bin\Debug\netcoreapp3.0\MentorLibrary.deps.json
 C:\Users\HP\Desktop\MOD\MentorLibrary\bin\Debug\netcoreapp3.0\MentorLibrary.runtimeconfig.json
 C:\Users\HP\Desktop\MOD\MentorLibrary\bin\Debug\netcoreapp3.0\MentorLibrary.runtimeconfig.dev.json
 C:\Users\HP\Desktop\MOD\MentorLibrary\bin\Debug\netcoreapp3.0\MentorLibrary.dll
 C:\Users\HP\Desktop\MOD\MentorLibrary\bin\Debug\netcoreapp3.0\MentorLibrary.pdb
-C:\Users\HP\Desktop\MOD\MentorLibrary\obj\Debug\netcoreapp3.0\MentorLibrary.csprojAssemblyReference.cache
-C:\Users\HP\Desktop\MOD\MentorLibrary\obj\Debug\netcoreapp3.0\MentorLibrary.AssemblyInfoInputs.cache
-C:\Users\HP\Desktop\MOD\MentorLibrary\obj\Debug\netcoreapp3.0\MentorLibrary.AssemblyInfo.cs
 C:\Users\HP\Desktop\MOD\MentorLibrary\obj\Debug\netcoreapp3.0\MentorLibrary.dll
 C:\Users\HP\Desktop\MOD\MentorLibrary\obj\Debug\netcoreapp3.0\MentorLibrary.pdb
